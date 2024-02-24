@@ -21,7 +21,7 @@ document.getElementById("addForm").addEventListener("submit", function(event) {
   });
 
   // Send data to GitHub API to update JSON file
-  const accessToken = "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";
+  const accessToken = "hidden";
   const repoOwner = "Jacksthehusky";
   const repoName = "Maderij.github.io";
   const branchName = "main"; // Or your desired branch name
