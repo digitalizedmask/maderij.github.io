@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>رتباء وعناصر المفرزة</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/14bd651fc9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../css/style2.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../Images/brains.ico" />
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top)-->
+  <div class="w3-top">
+    <div class="topbar w3-bar w3-white w3-card" id="myNavbar">
+      <a href="../index.html" class="logobrains w3-bar-item">موحد</a>
+      <a href="../index.html" aria-label="logobrains">
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+        <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json" trigger="loop" delay="2000"
+          colors="primary:#121331,secondary:#911710" style="width: 50px; height: 50px">
+        </lord-icon>
+      </a>
+
+      <!-- Right-sided navbar links -->
+      <div class="header w3-right w3-hide-small w3-hide-medium">
+        <a href="../index.html#home" class="navbartop w3-bar-item" style="--i: 1">HOME</a>
+        <a href="../index.html#about" class="navbartop w3-bar-item" style="--i: 2">ABOUT</a>
+        <a href="../index.html#team" class="navbartop w3-bar-item" style="--i: 3">TEAM</a>
+        <a href="../index.html#work" class="navbartop w3-bar-item" style="--i: 4">CAREERS</a>
+        <a href="../index.html#contact" class="navbartop w3-bar-item" style="--i: 5">CONTACT</a>
+        <a href="sl.html" class="navbartop w3-bar-item active" style="--i: 6">لائحة الأسماء</a>
+      </div>
+
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      <a href="javascript:void(0)" class="burger-menu w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()"
+        aria-label="menu">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-animate-top w3-hide-large" style="display: none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="../index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="../index.html#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="../index.html#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+    <a href="../index.html#work" onclick="w3_close()" class="w3-bar-item w3-button">CAREERS</a>
+    <a href="../index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="sl.html" onclick="w3_close()" class="w3-bar-item w3-button">لائحة الأسماء</a>
+  </nav>
+
+ 
+
+ <!-- add new Section -->
+<section class="faqs">
+  <div class="w3-container w3-light-grey" style="direction: rtl; text-align: right;">
+    <h2>Add Data</h2>
+    <form id="addForm" enctype="multipart/form-data">
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" required><br><br>
+
+      <label for="requiresPermission">Requires Permission:</label>
+      <input type="checkbox" id="requiresPermission" name="requiresPermission"><br><br>
+
+      <label for="group">Group:</label>
+      <input type="text" id="group" name="group"><br><br>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="pic">Pic:</label>
+      <input type="text" id="pic" name="pic"><br><br>
+
+      <label for="answer">Answer:</label>
+      <input type="text" id="answer" name="answer"><br><br>
+
+      <label for="excel">Excel:</label>
+      <input type="text" id="excel" name="excel"><br><br>
+
+      <!-- Add other input fields as needed -->
+
+      <input type="submit" value="Add Data">
+    </form>
+
+    <div id="message"></div>
+  </div>
+</section>
+
+ 
+  <!-- Footer -->
+  <footer class="w3-center w3-black" style="padding-top:20px !important;">
+    <p class="w3-small">Copyright &copy; مفرزة المداخل والمدارج المطار | All Rights Reserved - Designed and powered by Hadi</p>
+  </footer>
+
+
+  <script src="main1.js"></script>
+  <script src="script.js"></script>
+  <script src="s1.js"></script>
+  <script src="s1add.js"></script>
+</body>
+
+</html>
